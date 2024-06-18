@@ -5,10 +5,11 @@
 /* navbar */
 .navbar{
     background-color: antiquewhite;
+    
 }
 
 .nav-list {
-    font-size: 30px;
+    font-size: 20px;
     list-style-type: none;
     padding: 20px;
     margin: 0px;
@@ -32,7 +33,12 @@
 .main-content {
     align-items: center;
     padding: 200px;
-    font-size: 40px;
+    font-size: 30px;
+}
+
+#main-content-2{
+    padding: 0px 50px;
+    font-size: 30px;
 }
 
 #article-2{
@@ -50,7 +56,7 @@
 
 /* this will work */
 #p-tag{
-    font-size: 35px;
+    font-size: 30px;
 }
 
 /* span section */
@@ -61,7 +67,7 @@ span{
 
 .footer-section{
     background-color: rgba(37, 27, 27, 0.749);
-    font-size: 30px;
+    font-size: 20px;
     list-style-type: none;
     padding: 20px;
     margin: 0px;
@@ -78,7 +84,7 @@ span{
     text-decoration: none; 
     color: rgb(255, 255, 255); 
     padding: 10px;
-    font-size: 25px;
+    font-size: 20px;
 }
 .footer-section-list h5{
     color: rgb(255, 106, 0);
