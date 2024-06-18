@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar */
+.navbar{
+    background-color: antiquewhite;
+}
+
+.nav-list {
+    font-size: 30px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+    text-align: center; 
+}
+
+.nav-list li {
+    display: inline-block;
+    margin: 0 10px; 
+}
+.nav-list li a{
+    display: block; 
+    text-decoration: none; /* use for removing the underline */
+    color: black; 
+    padding: 10px;
+}
+/* main-content */
+.article-section {
+    background-color: rgb(255, 224, 183);
+}
+.main-content {
+    align-items: center;
+    padding: 200px;
+    font-size: 40px;
+}
+
+#article-2{
+    text-align: center;
+    background-color: rgb(255, 224, 183);
+    padding-bottom: 50px;
+    padding-left: 150px;
+}
+
+.box{
+    display: inline-block;
+    width: 45%; 
+    padding: 70px 10px;
+}
+
+/* this will work */
+#p-tag{
+    font-size: 35px;
+}
+
+/* span section */
+span{
+    color: rgb(255, 137, 2);
+}
+
+
+.footer-section{
+    background-color: rgba(37, 27, 27, 0.749);
+    font-size: 30px;
+    list-style-type: none;
+    padding: 20px;
+    margin: 0px;
+    text-align: center; 
+    background-image: url('./images/cafe.jpeg');
+}
+
+.footer-section-list{
+    display: inline-block;
+    margin: 10px 10px; 
+}
+.footer-section-list a{
+    display: block;
+    text-decoration: none; 
+    color: rgb(255, 255, 255); 
+    padding: 10px;
+    font-size: 25px;
+}
+.footer-section-list h5{
+    color: rgb(255, 106, 0);
+
+}
