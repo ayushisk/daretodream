@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #ddd;
+    background-color: black;
+    background-image: url(./images/hd1.jpg);
+}
+
+header {
+    color: #aaa;
+    padding: 1em;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+form {
+    background-color: #333;
+    padding: 2em;
+    border: #555;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(230, 230, 230, 0.452);
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+legend {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: #444;
+    border-radius: 5px;
+}
+
+input[type="radio"], input[type="checkbox"] {
+    margin: 0 10px 0 0;
+}
+
+input[type="submit"] {
+    background-color: #8c8b8b;    
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: antiquewhite;
+}
+
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focus, textarea:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+input[type="radio"]:checked, input[type="checkbox"]:checked {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+input[type="submit"]:active {
+    background-color: #ddd;
+}
+
+form > fieldset > legend {
+    font-size: 1.5em;
+}
+
+form > fieldset > label {
+    font-weight: bold;
+}
+
+form > fieldset > input[type="text"], form > fieldset > input[type="email"], form > fieldset > input[type="password"], form > fieldset > select, form > fieldset > textarea {
+    margin-bottom: 10px;
+}
+
+form > fieldset > input[type="radio"], form > fieldset > input[type="checkbox"] {
+    margin: 0 10px 0 0;
+}
