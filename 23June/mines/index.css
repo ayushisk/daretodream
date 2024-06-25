@@ -1,0 +1,103 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  background: linear-gradient(to right, rgb(0, 0, 0), rgba(0, 22, 108, 0.886));
+}
+
+.main {
+    margin: 100px auto;
+    padding: 20px;
+    background: rgb(89, 89, 89);
+    width: 650px;
+    zoom: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .main table {
+    background: rgb(73, 107, 117);
+    float: left;
+  }
+  
+  .main table td {
+    border: 2px outset rgb(59, 86, 101);
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .main table td:hover {
+    background-color: lightgrey;
+  }
+  .main #operation {
+    width: 240px;
+    float: right;
+    text-align: center;
+  }
+  
+  .landMine {
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .main table td.normal {
+    background-color: rgb(41, 57, 79);
+  }
+  
+  .main table td.normal:hover {
+    background-color: lightskyblue;
+  }
+  
+  .flag {
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .main:after {
+    clear: both;
+    display: block;
+    content: "";
+    line-height: 0;
+    height: 0;
+    visibility: hidden;
+  }
+  .main .tip {
+    font-size: 14px;
+    margin: 5px;
+  }
+  
+  .main .tip ul li {
+    margin: 5px 0;
+    line-height: 20px;
+  }
+  .main .light {
+    font-size: 30px;
+  }
+  .main .red {
+    color: mediumpurple;
+  }
+  .main .f60 {
+    color: peachpuff;
+  }
+  .main input[type="button"] {
+    padding: 2px 10px;
+    margin: 5px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  .main .txtleft {
+    text-align: left;
+  }
+  
+  .main input[type="radio"],
+  .main fieldset label {
+    cursor: pointer;
+  }
+  
+  .main fieldset {
+    margin: 10px 0;
+    line-height: 25px;
+  }

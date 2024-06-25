@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mine Sweeper</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+    <div id="JMS_main" class="main">
+        <div id="operation">
+            <div class="tip">
+                Mine Remained: <span class="" id="landMineCount">0</span>
+            </div> 
+            <div class="tip">
+                Time Consumed: <span class="" id="costTime">0</span>sec
+            </div>
+        </div>
+        <table id="landmine"></table>
+        <div id="operation">
+            <fieldset>
+                <legend>Level Choice: </legend>
+                <input type="radio" name="level" id="llevel" checked="checked" value="10"/>
+                <label for="llevel">Primary</label><br />
+                <input type="radio" name="level" id="mlevel" checked="checked" value="15"/>
+                <label for="llevel">Middle</label><br />
+                <input type="radio" name="level" id="hlevel" checked="checked" value="20"/>
+                <label for="llevel">Hard</label><br />
+            </fieldset>
+
+            <button id = "begin"class="">Start Game</button>
+        </div>
+    </div> 
+
+    <script src="jms.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
